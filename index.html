@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queezy</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS STYLE SHEET -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header id="header">
+      <div class="header">
+        <!-- <div class="header__icon-box">
+          <div class="header__icon"></div>
+        </div> -->
+
+        <div class="header__cursor"></div>
+
+        <img src="/logo.png" class="header__img" alt="" />
+        <h1 class="header__logo">qeezy</h1>
+
+        <!-- <button class="btn btn--finish btn--finish-1">finish</button> -->
+      </div>
+    </header>
+
+    <main class="main-container">
+      <div class="container__playorcreate">
+        <img src="/bg.png" alt="hero-bg" class="container__img" />
+        <div class="container__hero">
+          <p>
+            Welcome to <strong>Queezy</strong> – the ultimate destination for quizzers! Here you can find a wide variety
+            of exciting quizzes to play, or if you're feeling creative, you can even create your own! Our platform is
+            designed to be intuitive and easy to use, so you can get playing and creating in no time. Whether you're a
+            quiz enthusiast, a trivia buff, or just looking to kill some time, Queezy has the perfect quiz for you. So
+            what are you waiting for? Get started now and join the quiz revolution!
+          </p>
+          <div class="container__buttons">
+            <button class="container__button container__button--play">play</button>
+            <button class="container__button container__button--create">create</button>
+          </div>
+        </div>
+        <div class="container__shapes">
+          <div class="questions__shape container__shape container__shape--1 questions__shape--1"></div>
+          <div class="questions__shape container__shape container__shape--2 questions__shape--2"></div>
+          <div class="questions__shape container__shape container__shape--3 questions__shape--3"></div>
+          <div class="questions__shape container__shape container__shape--4 questions__shape--4"></div>
+        </div>
+      </div>
+
+      <div class="container__create">
+        <!-- ALL Questions - LEFT SIDE -->
+        <aside class="questions__all section__center disabled">
+          <!-- QUESTION 1 -->
+          <!-- <div class="questions__box">
+            <div class="questions__heading">
+              <span class="questions__number">1</span>
+              <p>Quiz</p>
+            </div>
+            <div class="question__info">
+              <p class="question">What is java?</p>
+              <div class="question__timer-box">
+                <span class="question__timer">20</span>
+              </div>
+              <i class="fa-solid fa-trash-can question__delete"></i>
+            </div>
+          </div> -->
+
+          <div class="question__next-box">
+            <i class="fa-solid fa-plus question__next btn--next"></i>
+          </div>
+        </aside>
+
+        <!-- QUESTIONS FORM - MIDDLE PART -->
+        <section id="questions">
+          <div class="section__center questions">
+            <form class="questions__header">
+              <h4 class="questions__title">quiz name:</h4>
+              <div class="quiz__header-box">
+                <input
+                  type="text"
+                  class="quiz__name-input"
+                  name="quiz__name-input"
+                  placeholder="Enter quiz name"
+                  autocomplete="off"
+                />
+                <button class="btn quiz__name-btn">Submit</button>
+              </div>
+            </form>
+
+            <form action="" class="questions__form disabled">
+              <input type="text" class="questions__input" placeholder="Start typing your question" />
+
+              <div class="questions__answers">
+                <!-- ANSWER 1 -->
+                <div class="questions__answer questions__answer--1" data-color="#ff0000">
+                  <div class="questions__shape-box questions__shape-box--1">
+                    <div class="questions__shape questions__shape--1"></div>
+                  </div>
+
+                  <input type="text" class="answer__input answer__input--1" placeholder="Add answer 1" required />
+
+                  <input type="radio" name="answer" value="answer1" class="answer answer--1" />
+
+                  <span class="questions__length">75</span>
+                </div>
+
+                <!-- ANSWER 2 -->
+                <div class="questions__answer questions__answer--2" data-color="#0542b9">
+                  <div class="questions__shape-box questions__shape-box--2">
+                    <div class="questions__shape questions__shape--2"></div>
+                  </div>
+
+                  <input type="text" class="answer__input answer__input--2" placeholder="Add answer 2" />
+
+                  <input type="radio" name="answer" class="answer answer--2" value="answer2" />
+
+                  <span class="questions__length">75</span>
+                </div>
+
+                <!-- ANSWER 3-->
+                <div class="questions__answer questions__answer--3" data-color="#f5a23d">
+                  <div class="questions__shape-box questions__shape-box--3">
+                    <div class="questions__shape questions__shape--3"></div>
+                  </div>
+
+                  <input type="text" class="answer__input answer__input--3" placeholder="Add answer 3" />
+
+                  <input type="radio" name="answer" class="answer answer--3" value="answer3" />
+
+                  <span class="questions__length">75</span>
+                </div>
+
+                <!-- ANSWER 4 -->
+                <div class="questions__answer questions__answer--4" data-color="#106b03">
+                  <div class="questions__shape-box questions__shape-box--4">
+                    <div class="questions__shape questions__shape--4"></div>
+                  </div>
+
+                  <input type="text" class="answer__input answer__input--4" placeholder="Add answer 4" />
+
+                  <input type="radio" name="answer" class="answer answer--4" value="answer4" />
+
+                  <span class="questions__length">75</span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <!-- QUESTIONS OPTIONS - RIGHT SIDE -->
+        <aside class="questions__options disabled">
+          <!-- QUESTIONS OPTION - 1 -->
+          <div class="questions__option">
+            <label for="questions__type">
+              <i class="fa-solid fa-circle-question"></i>
+              <span>Question type</span>
+            </label>
+
+            <select id="questions__type" class="questions__type">
+              <option value="quiz">quiz</option>
+              <option value="trueorfalse">true or false</option>
+            </select>
+          </div>
+
+          <!-- QUESTIONS OPTION - 2 -->
+          <div class="questions__option">
+            <label for="questions__time">
+              <i class="fa-solid fa-clock"></i>
+              <span>Time limit</span>
+            </label>
+
+            <select id="questions__time">
+              <option value="5">5 seconds</option>
+              <option value="10">10 seconds</option>
+              <option value="20" selected="selected">20 seconds</option>
+              <option value="30">30 seconds</option>
+              <option value="45">45 seconds</option>
+              <option value="60">1 minute</option>
+            </select>
+          </div>
+
+          <!-- QUESTIONS OPTION - 3 -->
+          <div class="questions__option">
+            <label for="question__points">
+              <i class="fa-solid fa-trophy"></i>
+              <span>Points</span>
+            </label>
+
+            <select id="question__points">
+              <option value="100">standard</option>
+              <option value="200">double points</option>
+              <option value="0">no points</option>
+            </select>
+          </div>
+          <!-- QUESTIONS OPTION - 4 -->
+          <div class="questions__option--btns">
+            <button class="btn btn--cancel">cancel</button>
+            <button class="btn btn--ok">ok</button>
+          </div>
+
+          <button class="btn btn--next btn--hide">next question</button>
+          <button class="btn btn--finish btn--finish-2 btn--hide">finish</button>
+        </aside>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container__play">
+        <div class="play__slide">
+          <div class="play__header">
+            <button class="btn play__submit">Submit</button>
+            <button class="btn play__next">Next</button>
+            <h2 class="play__title">What is java?</h2>
+
+            <div class="play__info">
+              <div class="play__timer-box">
+                <span class="play__time">20</span>
+              </div>
+              <h4>points: <span class="play__score">0 </span></h4>
+            </div>
+          </div>
+
+          <div class="play__answers">
+            <!-- <div class="play__answer play__answer--1" data-selected="answer1">
+              <div class="play__shape play__shape--1"></div>
+              <p class="play__selected">Answer</p>
+            </div>
+
+            <div class="play__answer play__answer--2" data-selected="answer2">
+              <div class="play__shape play__shape--2"></div>
+              <p class="play__selected">Answer</p>
+            </div>
+
+            <div class="play__answer play__answer--3" data-selected="answer3">
+              <div class="play__shape play__shape--3"></div>
+              <p class="play__selected">Answer</p>
+            </div>
+
+            <div class="play__answer play__answer--4" data-selected="answer4">
+              <div class="play__shape play__shape--4"></div>
+              <p class="play__selected">Answer</p>
+            </div> -->
+          </div>
+        </div>
+        <div class="play__question-popup">
+          <h2 class="play__title play__popup-title">What is java?</h2>
+          <div class="play__bar"></div>
+        </div>
+
+        <div class="play__winner-popup">
+          <span class="play__winner-close"><i class="fa-solid fa-xmark"></i></span>
+          <div class="play__winner-header">
+            <div class="play__winner-scorebox">
+              <p class="play__winner-score">300</p>
+            </div>
+            <div class="play__winner-scorebox">
+              <span class="play__winner-percentage">300</span>
+              <span class="play__winner-percent"> %</span>
+            </div>
+          </div>
+
+          <h2 class="play__winner-title">score</h2>
+
+          <p class="play__winner-info">
+            <span class="play__winner-correct">2</span> out of
+            <span class="play__winner-total">10</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="container__available">
+        <h2 class="available__title">available quizes</h2>
+
+        <div class="available__quizes-box">
+          <!-- PROJECT ! -->
+          <div class="available__quiz-box">
+            <div class="available__heading">
+              <span class="available__number">1</span>
+              <p>food</p>
+            </div>
+            <div class="available__info">
+              <div class="available__questions-box">
+                <span class="available__questions">20</span>
+              </div>
+              <p class="available__text">questions</p>
+              <i class="fa-solid fa-trash-can available__delete"></i>
+            </div>
+          </div>
+
+          <!-- PROJECT ! -->
+          <div class="available__quiz-box">
+            <div class="available__heading">
+              <span class="available__number">1</span>
+              <p>food</p>
+            </div>
+            <div class="available__info">
+              <div class="available__questions-box">
+                <span class="available__questions">20</span>
+              </div>
+              <p class="available__text">questions</p>
+              <i class="fa-solid fa-trash-can available__delete"></i>
+            </div>
+          </div>
+
+          <!-- PROJECT ! -->
+          <div class="available__quiz-box">
+            <div class="available__heading">
+              <span class="available__number">1</span>
+              <p>food</p>
+            </div>
+            <div class="available__info">
+              <div class="available__questions-box">
+                <span class="available__questions">20</span>
+              </div>
+              <p class="available__text">questions</p>
+              <i class="fa-solid fa-trash-can available__delete"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
