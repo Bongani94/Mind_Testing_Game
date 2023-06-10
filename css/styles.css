@@ -43,6 +43,14 @@ a:hover {
   color: green;
   background-color: transparent;
   text-decoration: underline;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: white;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  top: 0; }
 }
 
 ul {
