@@ -17,9 +17,9 @@ class App {
     this.playAnswerEls = [];
 
     this.sounds = {
-      clockAudio: new Audio('../audio/clock-ticking-4.mp3'),
-      success: new Audio('../audio/success-fanfare-trumpets-6185.mp3'),
-      failure: new Audio('../audio/wah-wah-sad-trombone-6347.mp3'),
+      clockAudio: new Audio('./audio/clock-ticking-4.mp3'),
+      success: new Audio('./audio/success-fanfare-trumpets-6185.mp3'),
+      failure: new Audio('./audio/wah-wah-sad-trombone-6347.mp3'),
       over: new Audio('./audio/game-over-arcade-6435.mp3'),
     };
 
