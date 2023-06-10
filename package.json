@@ -1,12 +1,12 @@
 {
-  "name": "quizly",
+  "name": "Mind Testing Game",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
     "start": "node-sass sass/main.scss css/styles.css -w"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Bongani Baloyi",
+  "license": "MIT",
   "devDependencies": {
     "sass": "^1.54.5"
   },
