@@ -1,6 +1,6 @@
 # Mind_Testing_Game 💻
 ---
-## *Environment benefits, this game test how is your knowledge about specif things you can create yours at create option if you feel what is already inside is not what you want you can even, use this game to study by creating your multiple choice*
+## *Environment benefits, this game test how is your knowledge about specific things. You can even create yours at create option if you feel what is already inside is not what you want. You can even use this game to study by creating your multiple choice*
 ---
 ![screanshot3](https://github.com/Bongani94/Mind_Testing_Game/blob/main/Screenshot%20(3).png)
 ---
