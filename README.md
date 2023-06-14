@@ -5,7 +5,7 @@
 ***
 [![Watch the video](image/watch.jpeg)](https://youtu.be/j_fY5UchkTc)
 ---
-###  Aim 🥉 my aim was to practice how to create ``front-end while gaining experience``. Things that push me to do this one, is because almost everyone loves to play games, but most of it is to push time without gaining knowledge. This one of mine, I want everyone to gain knowledge and learn to do research in google because some question that is already inside, if you want to understand it you will go through google or ask people.
+## Aim 🔤 my aim was to practice how to create ``front-end while gaining experience``. Things that push me to do this one, is because almost everyone loves to play games, but most of it is to push time without gaining knowledge. This one of mine, I want everyone to gain knowledge and learn to do research in google because some question that is already inside, if you want to understand it you will go through google or ask people.
 ---
 ![screenshot](image/Screenshot%20(8).png)
 ***
