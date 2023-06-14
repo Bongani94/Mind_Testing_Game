@@ -1,10 +1,11 @@
 # Mind_Testing_Game 💻
 ---
-## *Environment benefits, this game test how is your knowledge about specific things. You can even create yours at create option if you feel what is already inside is not what you want. You can even use this game to study by creating your multiple choice*
+## *tests how much knowledge you have, because it is not just a game, is a multiple choice with four options and true/false, you will have to choose only one for the correct answer, each question have limited time. Game that can help environment to get ``benefits of knowledge``. Mind is powering by information, you describe a person by his/her mind.*
+
 ***
 [![Watch the video](image/watch.jpeg)](https://youtu.be/j_fY5UchkTc)
 ---
-###  Aim 🥉 ``Many people love to play games but they don't get benefits on those they are playing, I created this one so that everyone who will play this will able to see how much knowledge you have. I'm trying to change environment so that many people can have a positive mindset. this game will train you to do research, because some question will need you to do some research``
+###  Aim 🥉 my aim was to practice how to create ``front-end while gaining experience``. Things that push me to do this one, is because almost everyone loves to play games, but most of it is to push time without gaining knowledge. This one of mine, I want everyone to gain knowledge and learn to do research in google because some question that is already inside, if you want to understand it you will go through google or ask people.
 ---
 ![screenshot](image/Screenshot%20(8).png)
 ***
@@ -12,13 +13,8 @@
 ---
 ***
 # Programe that design this game is 🏗️
->- [css](./css)
->- [Javascript](./js)
->- [sass](./sass)
->- [html](./index.html)
->- [json](./package.json)
+> For front-end development, [Html](./index.html) I used, [CSS](./css) and [JavaScript](./js). My additional framework I used [Sassy](./sass), so that I can learn more about fronted. I used  [JSON](./package.json) so that I can learn how to interchange data between the frontend and backend components of a web application.
 ---
-![screanshot7](image/https://github.com/Bongani94/Mind_Testing_Game/blob/main/Screenshot%20(7).png)
 ---
 # Author 📖🖋️
 # *Bongani Baloyi*
