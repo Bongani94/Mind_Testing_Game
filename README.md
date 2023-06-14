@@ -10,9 +10,7 @@
 ***
 [![Mind Testing Game](image/download%20(1).jpeg)](https://bongani94.github.io/Mind_Testing_Game/)
 ---
-
-!['screanshot'](image/Screenshot%20(5).png)
----
+***
 # Programe that design this game is 🏗️
 >- [css](./css)
 >- [Javascript](./js)
