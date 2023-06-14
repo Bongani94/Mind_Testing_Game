@@ -16,7 +16,7 @@
 ## Challanges 📉
 > While I thought I’m done with my project, when I tried to run it was not showing everything in order, I had to debug and fix everything to be able to start testing my mind. When I clicked play or create option was not going through, I had to debug again, until I was able to go through it. The time limit was not working. I had to debug to fix the problem until I saw the time limit work. Because I wanted my game to have sound, I had to search and understand everything about sound, but after I coded everything, I found that my game does not have a sound, which is where I debugged again until when I played it I heard a sound.
 ***
-# Programe that design this game are 🏗️
+# Programmes that designed this game are 🏗️
 > For front-end development, [Html](./index.html) I used, [CSS](./css) and [JavaScript](./js). My additional framework I used [Sassy](./sass), so that I can learn more about fronted. I used  [JSON](./package.json) so that I can learn how to interchange data between the frontend and backend components of a web application.
 ---
 ## Features 💼
