@@ -22,3 +22,6 @@
 > [![twitter](image/twitter.png)](https://twitter.com/Khalanga94/status/1668678169883189251?s=20)
 > [![Linkedln](image/linked.png)](https://www.linkedin.com/pulse/mind-testing-game-bongani-baloyi-1f)
 > [![medium](image/download.png)](https://medium.com/@bonganibaloyi94/mind-testing-game-55b663ffc2c)
+---
+#### License 🔐
+>- This project is under MIT License, everything you want to know about it check #[LICENSE](./LICENSE)#.
