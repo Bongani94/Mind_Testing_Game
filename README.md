@@ -2,7 +2,7 @@
 ---
 ## *tests how much knowledge you have, because it is not just a game, is a multiple choice with four options and true/false, you will have to choose only one for the correct answer, each question have limited time. Game that can help environment to get ``benefits of knowledge``. Mind is powering by information, you describe a person by his/her mind.*
 
-***Click to Watch Example***
+***Click to Watch an Example***
 [![Watch the video](image/watch.jpeg)](https://youtu.be/j_fY5UchkTc)
 ---
 ## Aim 🔤 my aim was to practice how to create ``front-end development while gaining experience``. Things that push me to do this one, is because almost everyone loves to play games, but most of it is to push time without gaining knowledge. This one of mine, I want everyone to gain knowledge and learn to do research in google because some question that is already inside, if you want to understand it you will go through google or ask people.
