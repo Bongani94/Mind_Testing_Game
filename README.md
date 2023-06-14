@@ -24,4 +24,4 @@
 > [![medium](image/download.png)](https://medium.com/@bonganibaloyi94/mind-testing-game-55b663ffc2c)
 ---
 #### License 🔐
->- This project is under MIT License, everything you want to know about it check #[LICENSE](./LICENSE)#.
+>- This project is under MIT License, everything you want to know about it check [LICENSE](./LICENSE).
