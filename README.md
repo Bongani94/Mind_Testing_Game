@@ -15,6 +15,7 @@
 # Programe that design this game is 🏗️
 > For front-end development, [Html](./index.html) I used, [CSS](./css) and [JavaScript](./js). My additional framework I used [Sassy](./sass), so that I can learn more about fronted. I used  [JSON](./package.json) so that I can learn how to interchange data between the frontend and backend components of a web application.
 ---
+> ![Benefits](image/Screenshot%20(9).png)
 ---
 # Author 📖🖋️
 # *Bongani Baloyi*
