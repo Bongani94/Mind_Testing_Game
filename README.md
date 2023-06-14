@@ -22,6 +22,6 @@
 ![screanshot7](image/https://github.com/Bongani94/Mind_Testing_Game/blob/main/Screenshot%20(7).png)
 ---
 ### Author
->- Bongani Baloyi [Github](https://github.com/Bongani94)
+>- Bongani Baloyi [![Github](image/github.png)](https://github.com/Bongani94)
 >- [twitter](https://twitter.com/Khalanga94)
 >- [Linkedln](https://www.linkedin.com/in/bongani-baloyi-1794b1121)
