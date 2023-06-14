@@ -10,7 +10,7 @@
 ####  *you can try it here* ⏯️ [Mind Testing Game](https://bongani94.github.io/Mind_Testing_Game/)
 ---
 
-![Mind Testing Game](image/Screenshot (5).png)
+![screanshoot](Mind_Testing_Game/image/Screenshot (5).png)
 ---
 # Programe that design this game is 🏗️
 >- [css](./css)
