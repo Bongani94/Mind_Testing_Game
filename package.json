@@ -1,18 +1,24 @@
 {
-  "name": "Mind Testing Game",
+  "name": "mind_testing_game",
   "version": "1.0.0",
-  "main": "script.js",
+  "description": "--- ## *Hey there! 😄 Got a cool challenge for you! It's not just a game, it's a knowledge test with MCQs and true/false questions. Pick one right answer for each within limited time. It's more than fun – helping the environment while boosting your brainpower! Remember, a person's mind is defined by their knowledge. Ready to play? 🌍🧠*",
+  "main": "index.js",
   "scripts": {
     "start": "node-sass sass/main.scss css/styles.css -w"
   },
-  "author": "Bongani Baloyi",
-  "license": "MIT",
-  "devDependencies": {
-    "sass": "^1.54.5"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bongani94/Mind_Testing_Game.git"
   },
-  "description": "",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bongani94/Mind_Testing_Game/issues"
+  },
+  "homepage": "https://github.com/Bongani94/Mind_Testing_Game#readme",
   "dependencies": {
-    "node-sass": "^7.0.1",
-    "openai": "^3.2.1"
+    "nodemon": "^3.0.1",
+    "openai": "^4.3.1",
+    "sass": "^1.66.1"
   }
 }
